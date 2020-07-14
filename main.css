@@ -412,9 +412,6 @@ hr{
   min-height: 100vh;
   max-width: 90rem;
   margin: auto;
-  height:15rem;
-  align-items: center;
-  justify-content: center;
   gap: 3rem 3rem;
 }
 
@@ -434,8 +431,18 @@ hr{
 .contact-btn{
   color: white;
   font-size: 3rem;
+  margin: 1.5rem 2rem;
 }
+
+.cbtnbox{
+  position: static;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
 
 footer{
   text-align: center;
-}
+  position: static;
+  }
